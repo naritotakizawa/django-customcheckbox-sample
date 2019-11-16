@@ -1,0 +1,2 @@
+# django-customcheckbox-sample
+カスタムチェックボックスのサンプル

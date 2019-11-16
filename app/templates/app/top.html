@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>チェックボックステスト</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+
+        /* カスタムチェックボックス */
+        .custom-checkbox {
+            display: none;
+        }
+
+        .custom-checkbox:checked + .custom-checkbox-label {
+            background: #00809d;
+            color: #fff;
+        }
+
+        .custom-checkbox-label {
+            display: inline-block;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            border: solid 1px #ccc;
+            transition: 0.25s;
+            padding: 6px 18px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 3px;
+        }
+
+        .custom-checkbox-label:hover {
+            opacity: 0.5;
+        }
+
+    </style>
+</head>
+<body>
+<form action="" method="GET">
+    {{ form.as_p }}
+    <button type="submit">送信</button>
+</form>
+</body>
+</html>

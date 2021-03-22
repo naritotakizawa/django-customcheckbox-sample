@@ -1,7 +1,7 @@
 # django-customcheckbox-sample
 カスタムチェックボックスのサンプル
 
-[ブログでの解説](https://narito.ninja/blog/detail/155/)
+[ブログでの解説](https://blog.narito.ninja/detail/155/)
 
 migrate、createsuperuser、そしてDjango管理サイトでタグを幾つか作成し、試してください。
 
